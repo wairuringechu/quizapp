@@ -1,0 +1,20 @@
+.Navbar {
+    background-color: #333;
+    width: 1000px;
+    color:rgb(17, 1, 1);
+    padding: 10px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .link li {
+    display: inline-block;
+    gap: 6px;
+    margin-right: 140px;
+  }
+  
+  .link li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

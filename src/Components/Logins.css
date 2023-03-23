@@ -1,0 +1,62 @@
+/* LOGINS */
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 172, 103);
+    height: 100vh;
+  }
+  
+  .Account {
+    background-color:rgb(64, 197, 64);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.btn1 {
+    background-color:white;
+    color: #ccc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn1:hover {
+    background-color: #ccc;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  button.btn2 {
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  button.btn2:hover {
+    background-color: transparent;
+    color:#ccc;
+    text-decoration: underline;
+  }
+  

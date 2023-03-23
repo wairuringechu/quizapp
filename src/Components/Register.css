@@ -1,0 +1,60 @@
+/*REGISTER*/
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgba(0, 128, 0, 0.575);
+  }
+  
+  .Account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(40, 126, 18);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-details {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn1 {
+    background-color:#ccc;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background-color:whitesmoke;
+  }
+  
+  .btn2 {
+    background-color: transparent;
+    color:#ccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn2:hover {
+    text-decoration: underline;
+  }
